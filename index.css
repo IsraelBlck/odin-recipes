@@ -86,11 +86,11 @@ body {
 
 }
 
-.nav-bar {
+.nav-bar, .sidebar{
     display: flex;
     flex-direction: column;
     align-items: left;
-    border-right: 2px solid #ddd;
+
     flex: 1;
     padding: 10px;
     margin: 10px;
@@ -103,7 +103,7 @@ body {
         margin-left:-35px;
     
 }
-nav li {
+nav li, .sidebar ul {
     list-style-type: none;
     line-height: 70px;
     text-decoration: none;
@@ -112,7 +112,9 @@ nav li {
     text-transform: capitalize;
     font-weight: lighter;
     letter-spacing: 2px;
-
+}
+.sidebar ul {
+    list-style-type:square;
 }
 
 nav li:hover {
