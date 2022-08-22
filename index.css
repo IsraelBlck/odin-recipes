@@ -34,8 +34,8 @@ body {
     width: 100%;
     height: 50px;
     background-image: url("data:image/svg+xml;utf8,\
-  <svg xmlns='http://www.w3.org/2000/svg' width='800'>\
-    <text x='50' y='35px' fill='black'>Raspberry Blackberry Smoothie - Chocolate Swirl Zucchini Sheet Cake - Easy Cinnamon Rolls </text>\
+  <svg xmlns='http://www.w3.org/2000/svg' width='500'>\
+    <text x='50' y='35px' fill='black'>Welcome to IsraelBlck Super Recipes !!</text>\
   </svg>\
   ");
     background-repeat: repeat;
@@ -70,7 +70,20 @@ body {
     font-weight: lighter;
     letter-spacing: 2px;
 }
-
+.sidebar {
+    padding: 20px;
+}
+.title{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+ol p, .photo p {
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 25px;
+}
 .article {
     flex: 4;
 }
