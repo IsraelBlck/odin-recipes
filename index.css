@@ -113,11 +113,11 @@ nav li, .sidebar ul {
     font-weight: lighter;
     letter-spacing: 2px;
 }
-.sidebar ul {
-    list-style-type:square;
-}
 
 nav li:hover {
+    text-decoration: underline;
+}
+.sidebar-title {
     text-decoration: underline;
 }
 
@@ -139,9 +139,10 @@ ol p,
     line-height: 25px;
 }
 
-.article {
-    flex: 4;
+.article-container {
+    flex: 3;
     text-align: center;
+
 }
 
 .article img {
