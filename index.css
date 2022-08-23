@@ -1,7 +1,9 @@
+
 body {
     margin: 50px;
     padding: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
 }
 
 .container {
@@ -101,18 +103,17 @@ body {
     text-transform: capitalize;
 }
 
-    nav ul {
+ nav ul {
         margin-top: 100px;
         display: inline-block;
         margin-left:-35px;
-    
 }
+
 nav li, .sidebar ul {
     list-style-type: none;
     line-height: 70px;
     text-decoration: none;
     font-size: 20px;
-    color: black;
     text-transform: capitalize;
     font-weight: lighter;
     letter-spacing: 2px;
@@ -134,6 +135,16 @@ nav li:hover {
     text-align: center;
     text-decoration: underline;
     text-transform: capitalize;
+}
+.title-para {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 30px;
+    color: grey;
+}
+.title-subhead {
+    font-size: 40px;
+    color:rgb(84, 36, 36)
 }
 
 ol p,
@@ -168,17 +179,18 @@ ol p,
     padding: 10px;
     margin: 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(94, 85, 85);
     font-weight: bolder;
     border-radius: 15px;
+    background-color: white;
 }
 .article-container a:hover {
-    background-color: #ddd;
+    background-color: black;
+    color: #ddd;
 
 }
 .article img {
     width: 100%;
-
 }
 
 .footer {
