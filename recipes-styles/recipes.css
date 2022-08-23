@@ -1,0 +1,140 @@
+body {
+    margin: 50px;
+    padding: 50px;
+}
+
+
+.header-container {
+    width: 100%;
+    padding: 0;
+    background-color: #ddd;
+}
+
+.img-logo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.header-titles h1 {
+    margin-top: 0;
+    margin-bottom: 0%;
+    color: rgb(139, 34, 34);
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 50px;
+    letter-spacing: 5px;
+
+}
+
+.header-title {
+    width: 100%;
+    height: 50px;
+    background-image: url("data:image/svg+xml;utf8,\
+  <svg xmlns='http://www.w3.org/2000/svg' width='500'>\
+    <text x='50' y='35px' fill='black'>Welcome to IsraelBlck Super Recipes !!</text>\
+  </svg>\
+  ");
+    background-repeat: repeat;
+    background-size: auto;
+    animation: 14s linear infinite slide;
+}
+
+.header-title {
+    margin: auto;
+}
+
+.article-container {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.title {
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(46, 42, 42);
+}
+
+.title-images {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.title-images img {
+    width: 50%;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.title-subhead {
+    font-size: 35px;
+    color: rgb(80, 75, 75)
+}
+
+.title-para {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 30px;
+    color: grey;
+}
+
+.nav ul {
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.title-ingredients li {
+    list-style-type: square;
+    line-height: 50px;
+}
+
+.nav a {
+    border: 1px solid rgb(94, 85, 85);
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(94, 85, 85);
+    font-weight: bolder;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.nav a:hover {
+    background-color: black;
+    color: #ddd;
+
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+@keyframes slide {
+    from {
+        background-position-x: 0;
+    }
+
+    to {
+        background-position-x: -100%;
+    }
+}
