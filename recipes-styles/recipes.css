@@ -115,11 +115,16 @@ body {
 
 }
 
+.title-para li {
+    margin: 30px;
+}
+
 .footer {
     margin-top: 50px;
     text-align: center;
     font-size: smaller;
 }
+
 
 .flex {
     display: flex;
