@@ -1,180 +1,92 @@
-
 body {
-    margin: 50px;
-    padding: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: grey;
-}
-
-.container {
-    padding: 20px;
-    margin: auto;
-}
-
-.header-container {
+    margin: 10px;
     width: 100%;
-    padding: 0;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    max-width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: block;
+}
+.header {
+    width: 100%;
+    display: block;
     background-color: #ddd;
 }
-
+.header-title {
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+   color: rgb(159, 117, 117);
+   letter-spacing: 10px;
+   text-shadow: 20px 10px rgb(213, 203, 203);
+}
 .img-logo {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
-.header-titles h1 {
-    margin-top: 0;
-    margin-bottom: 0%;
-    color: rgb(139, 34, 34);
-    font-size: 40px;
-    font-weight: bolder;
-    text-align: center;
-    text-transform: uppercase;
-    padding-left: 20px;
-    padding-right: 50px;
-    letter-spacing: 5px;
-
-}
-
-.header-title {
-    width: 100%;
-    height: 50px;
-    background-image: url("data:image/svg+xml;utf8,\
-  <svg xmlns='http://www.w3.org/2000/svg' width='500'>\
-    <text x='50' y='35px' fill='black'>Welcome to IsraelBlck Super Recipes !!</text>\
-  </svg>\
-  ");
-    background-repeat: repeat;
-    background-size: auto;
-    animation: 14s linear infinite slide;
-}
-
-
-.header-title {
-    margin: auto;
-}
-
-.sidebar {
-    flex: 1;
-}
-.sidebar ul  {
-    margin-top: 80px;
-}
-.article {
-    flex: 5;
- 
-}
-
-.subhead {
-
-    margin-left: 20%;
-    justify-content: space-between;
-    padding: 20px;
-    border-bottom: 2px solid #ddd;
-}
-
-.play-searh-btn {
+.content {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0;
     gap: 30px;
 }
-
-.play {
-    text-align: center;
-    width: 50px;
-    font-size: 12px;
-    font-weight: bolder;
-    padding: 5px;
-    border: 1px solid rgb(176, 154, 198);
-    border-radius: 10px;
-    background-color: white;
-    color: rgb(10, 7, 7);
-}
-.play:hover {
-    background-color: #ddd;
-}
-.nav-bar, .sidebar{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-
+.nav {
     flex: 1;
-    padding: 10px;
-    margin: 10px;
-    text-transform: capitalize;
+    padding: 30px;
+    border-right:1px solid #ddd;
+    align-items: left;
 }
-
- nav ul {
-        margin-top: 100px;
-        display: inline-block;
-        margin-left:-35px;
-}
-
-nav li, .sidebar ul {
+.nav li {
+    margin-top: 60px;
+    line-height: 60px;
     list-style-type: none;
-    line-height: 70px;
-    text-decoration: none;
-    font-size: 20px;
-    text-transform: capitalize;
-    font-weight: lighter;
-    letter-spacing: 2px;
-}
-
-nav li:hover {
     text-decoration: underline;
 }
-.sidebar-title {
-    text-decoration: underline;
+.article {
+    flex: 4;
+    width: 700px;
+    padding: 20px;
+}
+.cards img{
+    width: 100%;
+    margin: 30px 00;
 }
 .sidebar {
-    flex: 2 ;
+    flex: 1;
+    padding: 30px;
+    width: 100%;
+    border-left: 1px solid #ddd;
 }
-
-.title {
-    font-size: 25px;
+.sidebar ul {
+    width: 100%;
+    margin-top: 60px;
+    line-height: 40px;
+}
+.article-title {
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(80, 75, 75);
     text-align: center;
     text-decoration: underline;
-    text-transform: capitalize;
+    letter-spacing: 5px;
 }
-.title-para {
+
+.article-para {
     font-size: 20px;
-    font-weight: lighter;
+    font-weight: bold;
     line-height: 30px;
-    color: grey;
-}
-.title-subhead {
-    font-size: 40px;
-    color:rgb(84, 36, 36)
+    color: rgb(80, 75, 75);
 }
 
-ol p,
-.photo p {
-    font-weight: lighter;
-    font-size: 13px;
-    line-height: 25px;
-}
-
-.article-container {
-    flex: 3;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.article-container h2 {
-    letter-spacing: 3px;
-    text-decoration: underline;
-    font-size: 40px;
-}
-
-.article-container p {
-    font-size: 30px;
-    font-weight: bold;       
-}
-.cards {
-    padding: 10px;
-}
-.article-container a {
-    border: 2px solid purple;
+.btn {
+    border: 1px solid rgb(94, 85, 85);
     padding: 10px;
     margin: 10px;
     text-decoration: none;
@@ -183,40 +95,23 @@ ol p,
     border-radius: 15px;
     background-color: white;
 }
-.article-container a:hover {
+
+.btn:hover {
     background-color: black;
     color: #ddd;
-
-}
-.article img {
-    width: 100%;
 }
 
 .footer {
-    text-align: center; 
     margin-top: 50px;
     text-align: center;
     font-size: smaller;
+    letter-spacing: 10px;
+    font-weight: bolder;
 }
-
-.flex {
-    display: flex;
-}
-
-.flex-row {
-    flex-direction: row;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-@keyframes slide {
-    from {
-        background-position-x: 0;
-    }
-
-    to {
-        background-position-x: -100%;
-    }
+.insta {
+    color: rgb(159, 117, 117);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bolder;
 }
